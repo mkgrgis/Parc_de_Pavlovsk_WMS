@@ -71,3 +71,25 @@ https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1876/{zoom}/{x}/{y}.jpg
 
 https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1915/{zoom}/{x}/{y}.jpg
 ```
+
+### Автоматические ссылки для датировки объектов в OpenStreetMap редакторе ID
+
+* Датировать по карте 1798 года
+
+https://www.openstreetmap.org/edit?editor=id#map=17/59.68542/30.45540&background=custom:https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1798/{z}/{x}/{y}.jpg
+
+* Датировать по карте 1803 года
+
+https://www.openstreetmap.org/edit?editor=id#map=17/59.68542/30.45540&background=custom:https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1803/{z}/{x}/{y}.jpg
+
+* Датировать по карте 1842 года
+
+https://www.openstreetmap.org/edit?editor=id#map=17/59.68542/30.45540&background=custom:https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1842/{z}/{x}/{y}.jpg
+
+* Датировать по карте 1876 года
+
+https://www.openstreetmap.org/edit?editor=id#map=17/59.68542/30.45540&background=custom:https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1876/{z}/{x}/{y}.jpg
+
+* Датировать по карте 1915 года
+
+https://www.openstreetmap.org/edit?editor=id#map=17/59.68542/30.45540&background=custom:https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1915/{z}/{x}/{y}.jpg
