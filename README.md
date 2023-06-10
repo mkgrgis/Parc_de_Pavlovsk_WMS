@@ -1,8 +1,7 @@
 # Parc_de_Pavlovsk_WMS
-Картографические материалы по Павловскому парку
+Репозиторий содержит WMS (по протоколу TMS) слои (картографические маетриалы) исторических карт [Павловского парка](https://www.openstreetmap.org/relation/1721131).
 
-### WMS слои исторических карт Павловского парка
-Пример для картографической библиотеки [Leaflet.js](https://leafletjs.com)
+### Пример для картографической библиотеки [Leaflet.js](https://leafletjs.com)
 ```js
 var ParcDePavlovskWMSbaseURL = 'https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS';
 L.tileLayer( ParcDePavlovskWMSbaseURL + '/1798/{z}/{x}/{y}.jpg', {
@@ -35,4 +34,38 @@ L.tileLayer(ParcDePavlovskWMSbaseURL + '/1915/{z}/{x}/{y}.jpg', {
     attribution: 'Привязка и публикация <a href="http://retromap.ru/1418421_59.685800,30.453844">retromap.ru</a>',
     id: 'Павловск1915'
 }),
+```
+### Автоматические ссылки для отрисовки исторических карт в [OpenHistoricalMap ID](https://www.openhistoricalmap.org/edit?editor=id#map=17/59.68542/30.45540)
+
+* Отрисовать по карте 1798 года
+
+https://www.openhistoricalmap.org/edit?editor=id#map=17/59.68542/30.45540&background=custom:https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1798/{z}/{x}/{y}.jpg
+
+* Отрисовать по карте 1803 года
+
+https://www.openhistoricalmap.org/edit?editor=id#map=17/59.68542/30.45540&background=custom:https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1803/{z}/{x}/{y}.jpg
+
+* Отрисовать по карте 1842 года
+
+https://www.openhistoricalmap.org/edit?editor=id#map=17/59.68542/30.45540&background=custom:https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1842/{z}/{x}/{y}.jpg
+
+* Отрисовать по карте 1876 года
+
+https://www.openhistoricalmap.org/edit?editor=id#map=17/59.68542/30.45540&background=custom:https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1876/{z}/{x}/{y}.jpg
+
+* Отрисовать по карте 1915 года
+
+https://www.openhistoricalmap.org/edit?editor=id#map=17/59.68542/30.45540&background=custom:https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1915/{z}/{x}/{y}.jpg
+
+### Реквизиты для ручного добавления слоя подложки в [OpenHistoricalMap ID](https://www.openhistoricalmap.org/edit?editor=id#map=17/59.68542/30.45540)
+```
+https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1798/{zoom}/{x}/{y}.jpg
+
+https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1803/{zoom}/{x}/{y}.jpg
+
+https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1842/{zoom}/{x}/{y}.jpg
+
+https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1876/{zoom}/{x}/{y}.jpg
+
+https://mkgrgis.github.io/Parc_de_Pavlovsk_WMS/1915/{zoom}/{x}/{y}.jpg
 ```
