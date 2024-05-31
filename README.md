@@ -1,7 +1,7 @@
 # Parc_de_Pavlovsk_WMS
 Репозиторий содержит файлы для WMS (по протоколу TMS), образующие слои (картографические материалы) исторических карт [Павловского парка](https://www.openstreetmap.org/relation/1721131).
 
-![Вид в Павловском парке](https://github.com/mkgrgis/Parc_de_Pavlovsk_WMS/assets/41448637/0d8372b6-d046-4e92-b877-b4406e171e8e)
+![Вид в Павловском парке](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Aviary_Pavilion_in_Pavlovsk_Park_01.jpg/800px-Aviary_Pavilion_in_Pavlovsk_Park_01.jpg)
 
 ### Пример для картографической библиотеки [Leaflet.js](https://leafletjs.com)
 ```js
